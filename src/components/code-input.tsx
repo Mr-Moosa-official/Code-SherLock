@@ -41,7 +41,7 @@ export function CodeInput({ action, fieldErrors, isPending }: CodeInputProps) {
               id="code"
               name="code"
               placeholder="function helloWorld() { console.log('Hello, World!'); }"
-              className="min-h-[300px] font-code text-sm leading-relaxed"
+              className="min-h-[300px] font-code text-sm leading-relaxed rounded-xl"
               required
             />
             {fieldErrors?.code && <p className="text-sm font-medium text-destructive">{fieldErrors.code[0]}</p>}
@@ -51,7 +51,7 @@ export function CodeInput({ action, fieldErrors, isPending }: CodeInputProps) {
             <div className="space-y-2">
               <Label htmlFor="language" className="font-semibold">Language</Label>
               <Select name="language" required>
-                <SelectTrigger id="language">
+                <SelectTrigger id="language" className="rounded-full">
                   <SelectValue placeholder="Select language" />
                 </SelectTrigger>
                 <SelectContent>
@@ -72,6 +72,7 @@ export function CodeInput({ action, fieldErrors, isPending }: CodeInputProps) {
                 id="question"
                 name="question"
                 placeholder="e.g., How can I improve this?"
+                className="rounded-full"
               />
             </div>
           </div>

@@ -7,6 +7,7 @@ import { Badge } from "@/components/ui/badge";
 import { AlertTriangle, Bug, Lightbulb, ShieldAlert, FileCode2 } from "lucide-react";
 import type { CombinedAnalysis } from "@/app/actions";
 import { ScrollArea } from "./ui/scroll-area";
+import { cn } from "@/lib/utils";
 
 const categoryIcons: { [key: string]: React.ReactNode } = {
   errors: <Bug className="h-4 w-4" />,
@@ -30,12 +31,12 @@ const LoadingSkeleton = () => (
     </CardHeader>
     <CardContent className="space-y-4">
       <Skeleton className="h-10 w-full" />
-      <div className="space-y-2 p-4 border rounded-md">
+      <div className="space-y-2 p-4 border rounded-xl">
         <Skeleton className="h-6 w-1/3" />
         <Skeleton className="h-4 w-full" />
         <Skeleton className="h-4 w-5/6" />
       </div>
-      <div className="space-y-2 p-4 border rounded-md">
+      <div className="space-y-2 p-4 border rounded-xl">
         <Skeleton className="h-6 w-1/3" />
         <Skeleton className="h-4 w-full" />
       </div>
@@ -133,9 +134,9 @@ export function AnalysisView({ analysis, isPending }: { analysis: CombinedAnalys
       </CardHeader>
       <CardContent>
         <Tabs defaultValue="review">
-          <TabsList className="grid w-full grid-cols-2">
-            <TabsTrigger value="review">Automated Review</TabsTrigger>
-            <TabsTrigger value="improvements">AI Suggestions</TabsTrigger>
+          <TabsList className="grid w-full grid-cols-2 rounded-full">
+            <TabsTrigger value="review" className="rounded-full">Automated Review</TabsTrigger>
+            <TabsTrigger value="improvements" className="rounded-full">AI Suggestions</TabsTrigger>
           </TabsList>
           <TabsContent value="review">
             <ScrollArea className="h-[500px] pr-4">
@@ -149,7 +150,7 @@ export function AnalysisView({ analysis, isPending }: { analysis: CombinedAnalys
           <TabsContent value="improvements">
             <ScrollArea className="h-[500px] pr-4">
               <div className="space-y-4">
-                <div className="p-4 bg-muted/50 rounded-lg">
+                <div className="p-4 bg-muted/50 rounded-xl">
                   <h3 className="font-semibold text-lg mb-2">Explanation</h3>
                   <p className="text-sm text-muted-foreground">{improvementSuggestions.explanation}</p>
                 </div>
