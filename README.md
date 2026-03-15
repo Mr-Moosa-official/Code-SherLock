@@ -1,6 +1,6 @@
 # 🔐 CodeSher Lock – AI-Powered Code Review & Security Platform
 
-CodeSher Lock is an AI-driven automated code review and security analysis platform designed to help developers identify bugs, security vulnerabilities, style issues, and improvement opportunities in their codebases.
+CodeSher  Lock is an AI-driven automated code review and security analysis platform designed to help developers identify bugs, security vulnerabilities, style issues, and improvement opportunities in their codebases.
 
 The app combines static analysis tools, AI reasoning, and collaborative workflows to improve code quality, performance, and maintainability.
 
