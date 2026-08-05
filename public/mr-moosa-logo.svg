@@ -1,0 +1,32 @@
+<svg width="640" height="640" viewBox="0 0 640 640" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="640" height="640" fill="#f5f5f5"/>
+  <g transform="translate(320 320)">
+    <path d="M0 -235L235 0L0 235L-235 0L0 -235Z" fill="#111111"/>
+    <path d="M0 -235L235 0L0 235L-235 0L0 -235Z" stroke="#F8F8F8" stroke-width="16"/>
+    <g fill="#F8F8F8" stroke="#111111" stroke-width="5">
+      <path d="M0 -175L22 -145L0 -115L-22 -145Z"/>
+      <path d="M0 -175L48 -125L32 -96L0 -132Z"/>
+      <path d="M0 -175L82 -110L79 -78L0 -132Z"/>
+      <path d="M0 -175L116 -81L122 -48L0 -132Z"/>
+      <path d="M0 -175L138 -48L149 -17L0 -132Z"/>
+      <path d="M0 -175L149 -17L163 10L0 -132Z"/>
+      <path d="M0 -175L138 48L149 79L0 -132Z"/>
+      <path d="M0 -175L116 81L122 114L0 -132Z"/>
+      <path d="M0 -175L82 110L79 142L0 -132Z"/>
+      <path d="M0 -175L48 125L32 154L0 -132Z"/>
+      <path d="M0 -175L22 145L0 175L-22 145Z"/>
+      <path d="M0 -175L-48 125L-32 154L0 -132Z"/>
+      <path d="M0 -175L-82 110L-79 142L0 -132Z"/>
+      <path d="M0 -175L-116 81L-122 114L0 -132Z"/>
+      <path d="M0 -175L-138 48L-149 79L0 -132Z"/>
+      <path d="M0 -175L-149 -17L-163 10L0 -132Z"/>
+      <path d="M0 -175L-138 -48L-149 -17L0 -132Z"/>
+      <path d="M0 -175L-116 -81L-122 -48L0 -132Z"/>
+      <path d="M0 -175L-82 -110L-79 -78L0 -132Z"/>
+      <path d="M0 -175L-48 -125L-32 -96L0 -132Z"/>
+    </g>
+    <g transform="translate(0 0)">
+      <path d="M-85 -52L-60 -52V36H-30L8 -10L44 36H74V-52H101V76H63L8 6L-47 76H-85V-52Z" fill="#F8F8F8" stroke="#111111" stroke-width="6"/>
+    </g>
+  </g>
+</svg>
